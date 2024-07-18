@@ -15,3 +15,5 @@ navBar.forEach(function (a){
         navCollapse.classList.remove("show");
     })
 })
+
+$(".datepicker").each((function(){new Pikaday({field:this})}));
